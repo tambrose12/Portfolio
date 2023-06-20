@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +42,77 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 15px;
+  gap: 15px;
+  background-color: rgba(36, 36, 36, .75);
+
+}
+
+#nav-left {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+#nav-right {
+  display: flex;
+  justify-content: flex-start;
+  font-size: larger;
+  gap: 15px;
+  margin-right: 35px;
+}
+
+h1 {
+  color: #318db8;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  margin: 50px;
+  border: 2px solid #f5f5dc;
+  border-radius: 5%;
+}
+
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-section {
+  margin-top: 75px;
+}
+
+#hello {
+  margin-bottom: 5px;
+}
+
+.hero {
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+
+#logo {
+  border: none;
+  width: 400px;
+  height: auto;
+  margin: 0px;
 }
