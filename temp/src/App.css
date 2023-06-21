@@ -51,8 +51,8 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  padding: 15px;
-  gap: 15px;
+  padding: 1em;
+  gap: 1em;
   background-color: rgba(36, 36, 36, .75);
 
 }
@@ -60,28 +60,28 @@
 #nav-left {
   display: flex;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 1em;
 }
 
 #nav-right {
   display: flex;
   justify-content: flex-start;
   font-size: larger;
-  gap: 15px;
-  margin-right: 35px;
+  gap: 1em;
+  margin-right: 2em;
 }
 
 h1 {
   color: #318db8;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 2.5em;
 }
 
 .projectImg {
   max-width: 500px;
   min-width: 300px;
   height: auto;
-  margin: 50px;
+  margin: 2em;
   border: 2px solid #f5f5dc;
   border-radius: 5%;
   transition: .8s ease
@@ -95,8 +95,8 @@ h1 {
 }
 
 p {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 6.25em;
+  margin-right: 6.25em;
   font-size: 1.25em;
 }
 
@@ -111,8 +111,8 @@ h2 {
 }
 
 .project-section {
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin-top: 4.6em;
+  margin-bottom: 4.6em;
 }
 
 #hello {
@@ -120,27 +120,28 @@ h2 {
 }
 
 .hero {
-  margin-top: 75px;
-  margin-bottom: 100px;
+  margin-top: 4.6em;
+  margin-bottom: 6.25em;
 }
 
 #logo {
   border: none;
-  width: 400px;
+  max-width: 400px;
+  min-width: 200px;
   height: auto;
   margin: 0px;
 }
 
 #projects {
-  margin-top: 150px;
+  margin-top: 9.375em;
 }
 
 #about {
-  margin-top: 150px;
+  margin-top: 9.375em;
 }
 
 #links {
-  gap: 15px;
+  gap: 1em;
 }
 
 #resume-link {
@@ -149,8 +150,8 @@ h2 {
 }
 
 #resume {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 9.375;
+  margin-bottom: 9.375;
 }
 
 h3 {
@@ -160,15 +161,15 @@ h3 {
 
 h4 {
   text-align: left;
-  margin-left: 100px;
+  margin-left: 3em;
   font-size: 1.75em
 }
 
 ul {
   justify-content: start;
   text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 6.25em;
+  margin-right: 6.25em;
 }
 
 li {
