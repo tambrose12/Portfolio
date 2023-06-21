@@ -58,7 +58,7 @@ export default function Resume() {
             <h3>Education</h3>
             <h4>Flatiron School  01/2023 - 05/2023</h4>
             <p>Full Stack Web Development - Python, JavaScript, React, Flask, SQLite, SQLAlchemy, HTML, CSS.</p>
-            <h4>SUNY Jamestown Community College</h4>
+            <h4>SUNY Jamestown Community College  08/2014 - 05/2016</h4>
             <p>Associates Degree in Individual Studies. Phi Theta Kappa Honor Society student.</p>
             <br />
 
