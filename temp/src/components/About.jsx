@@ -1,9 +1,17 @@
+import { FaReact, FaHtml5, FaCss3 } from 'react-icons/fa'
+import { FaPython } from 'react-icons/fa'
+import { SiFlask } from 'react-icons/si'
+import { DiSqllite } from 'react-icons/di'
+import { SiJavascript } from 'react-icons/si'
+
+
 
 export default function About() {
 
 
     return (
-        <section>
+        <section id="about">
+            <h2><SiJavascript /> <FaReact /> <FaPython /> <SiFlask /> <DiSqllite /> <FaCss3 /> <FaHtml5 /></h2>
             <h2>A Little Bit About Me...</h2>
             <p> I am passionate about solving problems with Web Development and Design.</p>
 

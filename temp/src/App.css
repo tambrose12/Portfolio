@@ -77,12 +77,21 @@ h1 {
   margin-bottom: 50px;
 }
 
-img {
-  max-width: 400px;
+.projectImg {
+  max-width: 500px;
+  min-width: 300px;
   height: auto;
   margin: 50px;
   border: 2px solid #f5f5dc;
   border-radius: 5%;
+  transition: .8s ease
+}
+
+.projectImg:hover {
+  -webkit-box-shadow: 0px 0px 100px 0px #318db8;
+  -moz-box-shadow: 0px 0px 100px 0px #318db8;
+  box-shadow: 0px 0px 100px 0px #318db8;
+  transition: .8s ease
 }
 
 p {
@@ -99,6 +108,7 @@ p {
 
 .project-section {
   margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 #hello {
@@ -115,4 +125,47 @@ p {
   width: 400px;
   height: auto;
   margin: 0px;
+}
+
+#projects {
+  margin-top: 150px;
+}
+
+#about {
+  margin-top: 150px;
+}
+
+#links {
+  gap: 15px;
+}
+
+#resume-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#resume {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 100px;
+}
+
+ul {
+  justify-content: start;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#cert {
+  max-width: 75%;
+  height: auto;
 }

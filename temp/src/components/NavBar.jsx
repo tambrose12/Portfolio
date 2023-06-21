@@ -7,14 +7,17 @@ export default function NavBar() {
     return (
         <nav className="navbar">
             <div id="nav-left">
-                <a>
+                <a href='#home'>
                     Home
                 </a>
-                <a>
+                <a href='#about'>
                     About
                 </a>
-                <a>
+                <a href='#projects'>
                     Projects
+                </a>
+                <a href='#resume'>
+                    Resume
                 </a>
             </div>
             <div id="nav-right">
