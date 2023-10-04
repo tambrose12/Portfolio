@@ -2,7 +2,7 @@ import { FaReact, FaHtml5, FaCss3 } from 'react-icons/fa'
 import { FaPython } from 'react-icons/fa'
 import { SiFlask } from 'react-icons/si'
 import { DiSqllite } from 'react-icons/di'
-import { SiJavascript } from 'react-icons/si'
+import { SiJavascript, SiVite } from 'react-icons/si'
 import { BsGithub } from 'react-icons/bs'
 import { ImLinkedin } from 'react-icons/im'
 import { FaMedium } from 'react-icons/fa'
@@ -14,9 +14,9 @@ export default function Resume() {
 
     return (
         <section id='resume'>
-            <h2><SiJavascript /> <FaReact /> <FaPython /> <SiFlask /> <DiSqllite /> <FaCss3 /> <FaHtml5 /></h2>
+            <h2><SiJavascript /> <FaReact /> <SiVite /> <FaPython /> <SiFlask /> <DiSqllite /> <FaCss3 /> <FaHtml5 /></h2>
 
-            <h2>My Resume...</h2>
+            <h2 >My Resume...</h2>
             <a id='resume-link' href='https://docs.google.com/document/d/10pP9oZx0aJ45tsfEyMtSPcAyGBvUzvkjiM5pgGnJBQ8/edit?usp=sharing'>Click here to view my Resume in Google Docs</a>
             <br />
             <p id='links'>
